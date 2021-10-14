@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/static/js/main.afe298ae.chunk.js",
+    "main.js.map": "/static/js/main.afe298ae.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a66cb38f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a66cb38f.js.map",
+    "static/js/2.7b15ba81.chunk.js": "/static/js/2.7b15ba81.chunk.js",
+    "static/js/2.7b15ba81.chunk.js.map": "/static/js/2.7b15ba81.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.7b15ba81.chunk.js.LICENSE.txt": "/static/js/2.7b15ba81.chunk.js.LICENSE.txt",
+    "static/media/Homes.b5405527.svg": "/static/media/Homes.b5405527.svg",
+    "static/media/IBMPlexSansCondensed-Bold.3c942bb6.ttf": "/static/media/IBMPlexSansCondensed-Bold.3c942bb6.ttf",
+    "static/media/IBMPlexSansCondensed-Light.1b4b0294.ttf": "/static/media/IBMPlexSansCondensed-Light.1b4b0294.ttf",
+    "static/media/IBMPlexSansCondensed-Medium.01e7d9c5.ttf": "/static/media/IBMPlexSansCondensed-Medium.01e7d9c5.ttf",
+    "static/media/IBMPlexSansCondensed-Regular.e887af7b.ttf": "/static/media/IBMPlexSansCondensed-Regular.e887af7b.ttf",
+    "static/media/Landlord.ec25665d.svg": "/static/media/Landlord.ec25665d.svg",
+    "static/media/LettingAgency.0ef6f6ef.svg": "/static/media/LettingAgency.0ef6f6ef.svg",
+    "static/media/Tenant.8c493b03.svg": "/static/media/Tenant.8c493b03.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a66cb38f.js",
+    "static/js/2.7b15ba81.chunk.js",
+    "static/js/main.afe298ae.chunk.js"
+  ]
+}

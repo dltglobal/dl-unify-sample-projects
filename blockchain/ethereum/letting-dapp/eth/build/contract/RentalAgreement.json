@@ -1,0 +1,1225 @@
+{
+    "contracts": {
+        "RentalAgreement.sol": {
+            "RentalAgreement": {
+                "abi": [
+                    {
+                        "inputs": [
+                            {
+                                "internalType": "string",
+                                "name": "_landlordName",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_tenantName",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_propertyAddress",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_securityDepositAmount",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_rentAmount",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_paymentSchedule",
+                                "type": "string"
+                            }
+                        ],
+                        "stateMutability": "nonpayable",
+                        "type": "constructor"
+                    },
+                    {
+                        "inputs": [
+                            {
+                                "internalType": "string",
+                                "name": "_landlordName",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_tenantName",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_propertyAddress",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_securityDepositAmount",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_rentAmount",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "_paymentSchedule",
+                                "type": "string"
+                            }
+                        ],
+                        "name": "setContractValues",
+                        "outputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "function"
+                    }
+                ],
+                "evm": {
+                    "bytecode": {
+                        "object": "608060405234801561001057600080fd5b5060405161073238038061073283398101604081905261002f916101f7565b85516100429060009060208901906100b2565b5084516100569060019060208801906100b2565b50835161006a9060029060208701906100b2565b50825161007e9060039060208601906100b2565b5081516100929060049060208501906100b2565b5080516100a69060059060208401906100b2565b5050505050505061036e565b8280546100be906102eb565b90600052602060002090601f0160209004810192826100e05760008555610126565b82601f106100f957805160ff1916838001178555610126565b82800160010185558215610126579182015b8281111561012657825182559160200191906001019061010b565b50610132929150610136565b5090565b5b808211156101325760008155600101610137565b600082601f83011261015c57600080fd5b81516001604060020a03808211156101765761017661033f565b604051601f8301601f19908116603f0116810190828211818310171561019e5761019e61033f565b816040528381526020925086838588010111156101ba57600080fd5b600091505b838210156101dc57858201830151818301840152908201906101bf565b838211156101ed5760008385830101525b9695505050505050565b60008060008060008060c0878903121561021057600080fd5b86516001604060020a038082111561022757600080fd5b6102338a838b0161014b565b9750602089015191508082111561024957600080fd5b6102558a838b0161014b565b9650604089015191508082111561026b57600080fd5b6102778a838b0161014b565b9550606089015191508082111561028d57600080fd5b6102998a838b0161014b565b945060808901519150808211156102af57600080fd5b6102bb8a838b0161014b565b935060a08901519150808211156102d157600080fd5b506102de89828a0161014b565b9150509295509295509295565b6002810460018216806102ff57607f821691505b60208210811415610339577f4e487b7100000000000000000000000000000000000000000000000000000000600052602260045260246000fd5b50919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b6103b58061037d6000396000f3fe608060405234801561001057600080fd5b5060043610610047577c01000000000000000000000000000000000000000000000000000000006000350463c414765f811461004c575b600080fd5b61005f61005a366004610207565b610061565b005b85516100749060009060208901906100e1565b5084516100889060019060208801906100e1565b50835161009c9060029060208701906100e1565b5082516100b09060039060208601906100e1565b5081516100c49060049060208501906100e1565b5080516100d89060059060208401906100e1565b50505050505050565b8280546100ed906102fc565b90600052602060002090601f01602090048101928261010f5760008555610155565b82601f1061012857805160ff1916838001178555610155565b82800160010185558215610155579182015b8281111561015557825182559160200191906001019061013a565b50610161929150610165565b5090565b5b808211156101615760008155600101610166565b600082601f83011261018b57600080fd5b813567ffffffffffffffff808211156101a6576101a6610350565b604051601f8301601f19908116603f011681019082821181831017156101ce576101ce610350565b816040528381528660208588010111156101e757600080fd5b836020870160208301376000602085830101528094505050505092915050565b60008060008060008060c0878903121561022057600080fd5b863567ffffffffffffffff8082111561023857600080fd5b6102448a838b0161017a565b9750602089013591508082111561025a57600080fd5b6102668a838b0161017a565b9650604089013591508082111561027c57600080fd5b6102888a838b0161017a565b9550606089013591508082111561029e57600080fd5b6102aa8a838b0161017a565b945060808901359150808211156102c057600080fd5b6102cc8a838b0161017a565b935060a08901359150808211156102e257600080fd5b506102ef89828a0161017a565b9150509295509295509295565b60028104600182168061031057607f821691505b6020821081141561034a577f4e487b7100000000000000000000000000000000000000000000000000000000600052602260045260246000fd5b50919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fdfea26469706673582212201979c2b7d2c7538af3780566f6533322be1b315583b7de9626af099ef6277d4464736f6c63430008070033",
+                        "sourceMap": "63:1262:0:-:0;;;279:508;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;540:28;;;;:12;;:28;;;;;:::i;:::-;-1:-1:-1;578:24:0;;;;:10;;:24;;;;;:::i;:::-;-1:-1:-1;612:34:0;;;;:15;;:34;;;;;:::i;:::-;-1:-1:-1;656:46:0;;;;:21;;:46;;;;;:::i;:::-;-1:-1:-1;712:24:0;;;;:10;;:24;;;;;:::i;:::-;-1:-1:-1;746:34:0;;;;:15;;:34;;;;;:::i;:::-;;279:508;;;;;;63:1262;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;63:1262:0;;;-1:-1:-1;63:1262:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;14:885:1;68:5;121:3;114:4;106:6;102:17;98:27;88:55;;139:1;136;129:12;88:55;168:6;162:13;-1:-1:-1;;;;;231:2:1;227;224:10;221:36;;;237:18;;:::i;:::-;312:2;306:9;280:2;366:13;;-1:-1:-1;;362:22:1;;;386:2;358:31;354:40;342:53;;;410:18;;;430:22;;;407:46;404:72;;;456:18;;:::i;:::-;496:10;492:2;485:22;531:2;523:6;516:18;553:4;543:14;;598:3;593:2;588;580:6;576:15;572:24;569:33;566:53;;;615:1;612;605:12;566:53;637:1;628:10;;647:133;661:2;658:1;655:9;647:133;;;749:14;;;745:23;;739:30;718:14;;;714:23;;707:63;672:10;;;;647:133;;;798:2;795:1;792:9;789:80;;;857:1;852:2;847;839:6;835:15;831:24;824:35;789:80;887:6;14:885;-1:-1:-1;;;;;;14:885:1:o;904:1381::-;1079:6;1087;1095;1103;1111;1119;1172:3;1160:9;1151:7;1147:23;1143:33;1140:53;;;1189:1;1186;1179:12;1140:53;1222:9;1216:16;-1:-1:-1;;;;;1292:2:1;1284:6;1281:14;1278:34;;;1308:1;1305;1298:12;1278:34;1331:61;1384:7;1375:6;1364:9;1360:22;1331:61;:::i;:::-;1321:71;;1438:2;1427:9;1423:18;1417:25;1401:41;;1467:2;1457:8;1454:16;1451:36;;;1483:1;1480;1473:12;1451:36;1506:63;1561:7;1550:8;1539:9;1535:24;1506:63;:::i;:::-;1496:73;;1615:2;1604:9;1600:18;1594:25;1578:41;;1644:2;1634:8;1631:16;1628:36;;;1660:1;1657;1650:12;1628:36;1683:63;1738:7;1727:8;1716:9;1712:24;1683:63;:::i;:::-;1673:73;;1792:2;1781:9;1777:18;1771:25;1755:41;;1821:2;1811:8;1808:16;1805:36;;;1837:1;1834;1827:12;1805:36;1860:63;1915:7;1904:8;1893:9;1889:24;1860:63;:::i;:::-;1850:73;;1969:3;1958:9;1954:19;1948:26;1932:42;;1999:2;1989:8;1986:16;1983:36;;;2015:1;2012;2005:12;1983:36;2038:63;2093:7;2082:8;2071:9;2067:24;2038:63;:::i;:::-;2028:73;;2147:3;2136:9;2132:19;2126:26;2110:42;;2177:2;2167:8;2164:16;2161:36;;;2193:1;2190;2183:12;2161:36;;2216:63;2271:7;2260:8;2249:9;2245:24;2216:63;:::i;:::-;2206:73;;;904:1381;;;;;;;;:::o;2290:437::-;2375:1;2365:12;;2422:1;2412:12;;;2433:61;;2487:4;2479:6;2475:17;2465:27;;2433:61;2540:2;2532:6;2529:14;2509:18;2506:38;2503:218;;;2577:77;2574:1;2567:88;2678:4;2675:1;2668:15;2706:4;2703:1;2696:15;2503:218;;2290:437;;;:::o;2732:184::-;2784:77;2781:1;2774:88;2881:4;2878:1;2871:15;2905:4;2902:1;2895:15;2732:184;63:1262:0;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "object": "608060405234801561001057600080fd5b5060043610610047577c01000000000000000000000000000000000000000000000000000000006000350463c414765f811461004c575b600080fd5b61005f61005a366004610207565b610061565b005b85516100749060009060208901906100e1565b5084516100889060019060208801906100e1565b50835161009c9060029060208701906100e1565b5082516100b09060039060208601906100e1565b5081516100c49060049060208501906100e1565b5080516100d89060059060208401906100e1565b50505050505050565b8280546100ed906102fc565b90600052602060002090601f01602090048101928261010f5760008555610155565b82601f1061012857805160ff1916838001178555610155565b82800160010185558215610155579182015b8281111561015557825182559160200191906001019061013a565b50610161929150610165565b5090565b5b808211156101615760008155600101610166565b600082601f83011261018b57600080fd5b813567ffffffffffffffff808211156101a6576101a6610350565b604051601f8301601f19908116603f011681019082821181831017156101ce576101ce610350565b816040528381528660208588010111156101e757600080fd5b836020870160208301376000602085830101528094505050505092915050565b60008060008060008060c0878903121561022057600080fd5b863567ffffffffffffffff8082111561023857600080fd5b6102448a838b0161017a565b9750602089013591508082111561025a57600080fd5b6102668a838b0161017a565b9650604089013591508082111561027c57600080fd5b6102888a838b0161017a565b9550606089013591508082111561029e57600080fd5b6102aa8a838b0161017a565b945060808901359150808211156102c057600080fd5b6102cc8a838b0161017a565b935060a08901359150808211156102e257600080fd5b506102ef89828a0161017a565b9150509295509295509295565b60028104600182168061031057607f821691505b6020821081141561034a577f4e487b7100000000000000000000000000000000000000000000000000000000600052602260045260246000fd5b50919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fdfea26469706673582212201979c2b7d2c7538af3780566f6533322be1b315583b7de9626af099ef6277d4464736f6c63430008070033",
+                        "sourceMap": "63:1262:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;793:530;;;;;;:::i;:::-;;:::i;:::-;;;1076:28;;;;:12;;:28;;;;;:::i;:::-;-1:-1:-1;1114:24:0;;;;:10;;:24;;;;;:::i;:::-;-1:-1:-1;1148:34:0;;;;:15;;:34;;;;;:::i;:::-;-1:-1:-1;1192:46:0;;;;:21;;:46;;;;;:::i;:::-;-1:-1:-1;1248:24:0;;;;:10;;:24;;;;;:::i;:::-;-1:-1:-1;1282:34:0;;;;:15;;:34;;;;;:::i;:::-;;793:530;;;;;;:::o;-1:-1:-1:-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;14:719:1;57:5;110:3;103:4;95:6;91:17;87:27;77:55;;128:1;125;118:12;77:55;164:6;151:20;190:18;227:2;223;220:10;217:36;;;233:18;;:::i;:::-;308:2;302:9;276:2;362:13;;-1:-1:-1;;358:22:1;;;382:2;354:31;350:40;338:53;;;406:18;;;426:22;;;403:46;400:72;;;452:18;;:::i;:::-;492:10;488:2;481:22;527:2;519:6;512:18;573:3;566:4;561:2;553:6;549:15;545:26;542:35;539:55;;;590:1;587;580:12;539:55;654:2;647:4;639:6;635:17;628:4;620:6;616:17;603:54;701:1;694:4;689:2;681:6;677:15;673:26;666:37;721:6;712:15;;;;;;14:719;;;;:::o;738:1346::-;902:6;910;918;926;934;942;995:3;983:9;974:7;970:23;966:33;963:53;;;1012:1;1009;1002:12;963:53;1052:9;1039:23;1081:18;1122:2;1114:6;1111:14;1108:34;;;1138:1;1135;1128:12;1108:34;1161:50;1203:7;1194:6;1183:9;1179:22;1161:50;:::i;:::-;1151:60;;1264:2;1253:9;1249:18;1236:32;1220:48;;1293:2;1283:8;1280:16;1277:36;;;1309:1;1306;1299:12;1277:36;1332:52;1376:7;1365:8;1354:9;1350:24;1332:52;:::i;:::-;1322:62;;1437:2;1426:9;1422:18;1409:32;1393:48;;1466:2;1456:8;1453:16;1450:36;;;1482:1;1479;1472:12;1450:36;1505:52;1549:7;1538:8;1527:9;1523:24;1505:52;:::i;:::-;1495:62;;1610:2;1599:9;1595:18;1582:32;1566:48;;1639:2;1629:8;1626:16;1623:36;;;1655:1;1652;1645:12;1623:36;1678:52;1722:7;1711:8;1700:9;1696:24;1678:52;:::i;:::-;1668:62;;1783:3;1772:9;1768:19;1755:33;1739:49;;1813:2;1803:8;1800:16;1797:36;;;1829:1;1826;1819:12;1797:36;1852:52;1896:7;1885:8;1874:9;1870:24;1852:52;:::i;:::-;1842:62;;1957:3;1946:9;1942:19;1929:33;1913:49;;1987:2;1977:8;1974:16;1971:36;;;2003:1;2000;1993:12;1971:36;;2026:52;2070:7;2059:8;2048:9;2044:24;2026:52;:::i;:::-;2016:62;;;738:1346;;;;;;;;:::o;2089:437::-;2174:1;2164:12;;2221:1;2211:12;;;2232:61;;2286:4;2278:6;2274:17;2264:27;;2232:61;2339:2;2331:6;2328:14;2308:18;2305:38;2302:218;;;2376:77;2373:1;2366:88;2477:4;2474:1;2467:15;2505:4;2502:1;2495:15;2302:218;;2089:437;;;:::o;2531:184::-;2583:77;2580:1;2573:88;2680:4;2677:1;2670:15;2704:4;2701:1;2694:15"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "189800",
+                            "executionCost": "infinite",
+                            "totalCost": "infinite"
+                        },
+                        "external": {
+                            "setContractValues(string,string,string,string,string,string)": "infinite"
+                        }
+                    }
+                }
+            },
+            "checksum": "d8c61f01fd302c34f7ef7b3bc9e9c774"
+        }
+    },
+    "sources": {
+        "RentalAgreement.sol": {
+            "ast": {
+                "absolutePath": "RentalAgreement.sol",
+                "exportedSymbols": {
+                    "RentalAgreement": [
+                        94
+                    ]
+                },
+                "id": 95,
+                "license": "UNLICENSED",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.8",
+                            ".3"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "38:23:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "fullyImplemented": true,
+                        "id": 94,
+                        "linearizedBaseContracts": [
+                            94
+                        ],
+                        "name": "RentalAgreement",
+                        "nameLocation": "72:15:0",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "id": 3,
+                                "mutability": "mutable",
+                                "name": "landlordName",
+                                "nameLocation": "124:12:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 94,
+                                "src": "117:19:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_string_storage",
+                                    "typeString": "string"
+                                },
+                                "typeName": {
+                                    "id": 2,
+                                    "name": "string",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "117:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_storage_ptr",
+                                        "typeString": "string"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 5,
+                                "mutability": "mutable",
+                                "name": "tenantName",
+                                "nameLocation": "149:10:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 94,
+                                "src": "142:17:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_string_storage",
+                                    "typeString": "string"
+                                },
+                                "typeName": {
+                                    "id": 4,
+                                    "name": "string",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "142:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_storage_ptr",
+                                        "typeString": "string"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 7,
+                                "mutability": "mutable",
+                                "name": "propertyAddress",
+                                "nameLocation": "172:15:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 94,
+                                "src": "165:22:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_string_storage",
+                                    "typeString": "string"
+                                },
+                                "typeName": {
+                                    "id": 6,
+                                    "name": "string",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "165:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_storage_ptr",
+                                        "typeString": "string"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 9,
+                                "mutability": "mutable",
+                                "name": "securityDepositAmount",
+                                "nameLocation": "200:21:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 94,
+                                "src": "193:28:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_string_storage",
+                                    "typeString": "string"
+                                },
+                                "typeName": {
+                                    "id": 8,
+                                    "name": "string",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "193:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_storage_ptr",
+                                        "typeString": "string"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 11,
+                                "mutability": "mutable",
+                                "name": "rentAmount",
+                                "nameLocation": "234:10:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 94,
+                                "src": "227:17:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_string_storage",
+                                    "typeString": "string"
+                                },
+                                "typeName": {
+                                    "id": 10,
+                                    "name": "string",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "227:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_storage_ptr",
+                                        "typeString": "string"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 13,
+                                "mutability": "mutable",
+                                "name": "paymentSchedule",
+                                "nameLocation": "257:15:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 94,
+                                "src": "250:22:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_string_storage",
+                                    "typeString": "string"
+                                },
+                                "typeName": {
+                                    "id": 12,
+                                    "name": "string",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "250:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_storage_ptr",
+                                        "typeString": "string"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "body": {
+                                    "id": 52,
+                                    "nodeType": "Block",
+                                    "src": "530:257:0",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "id": 30,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 28,
+                                                    "name": "landlordName",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 3,
+                                                    "src": "540:12:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 29,
+                                                    "name": "_landlordName",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 15,
+                                                    "src": "555:13:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "540:28:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 31,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "540:28:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 34,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 32,
+                                                    "name": "tenantName",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 5,
+                                                    "src": "578:10:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 33,
+                                                    "name": "_tenantName",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 17,
+                                                    "src": "591:11:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "578:24:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 35,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "578:24:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 38,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 36,
+                                                    "name": "propertyAddress",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 7,
+                                                    "src": "612:15:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 37,
+                                                    "name": "_propertyAddress",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 19,
+                                                    "src": "630:16:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "612:34:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 39,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "612:34:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 42,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 40,
+                                                    "name": "securityDepositAmount",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 9,
+                                                    "src": "656:21:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 41,
+                                                    "name": "_securityDepositAmount",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 21,
+                                                    "src": "680:22:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "656:46:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 43,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "656:46:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 46,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 44,
+                                                    "name": "rentAmount",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 11,
+                                                    "src": "712:10:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 45,
+                                                    "name": "_rentAmount",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 23,
+                                                    "src": "725:11:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "712:24:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 47,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "712:24:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 50,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 48,
+                                                    "name": "paymentSchedule",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 13,
+                                                    "src": "746:15:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 49,
+                                                    "name": "_paymentSchedule",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 25,
+                                                    "src": "764:16:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "746:34:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 51,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "746:34:0"
+                                        }
+                                    ]
+                                },
+                                "id": 53,
+                                "implemented": true,
+                                "kind": "constructor",
+                                "modifiers": [],
+                                "name": "",
+                                "nameLocation": "-1:-1:-1",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 26,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [
+                                        {
+                                            "constant": false,
+                                            "id": 15,
+                                            "mutability": "mutable",
+                                            "name": "_landlordName",
+                                            "nameLocation": "314:13:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 53,
+                                            "src": "300:27:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 14,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "300:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 17,
+                                            "mutability": "mutable",
+                                            "name": "_tenantName",
+                                            "nameLocation": "351:11:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 53,
+                                            "src": "337:25:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 16,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "337:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 19,
+                                            "mutability": "mutable",
+                                            "name": "_propertyAddress",
+                                            "nameLocation": "386:16:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 53,
+                                            "src": "372:30:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 18,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "372:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 21,
+                                            "mutability": "mutable",
+                                            "name": "_securityDepositAmount",
+                                            "nameLocation": "426:22:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 53,
+                                            "src": "412:36:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 20,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "412:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 23,
+                                            "mutability": "mutable",
+                                            "name": "_rentAmount",
+                                            "nameLocation": "472:11:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 53,
+                                            "src": "458:25:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 22,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "458:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 25,
+                                            "mutability": "mutable",
+                                            "name": "_paymentSchedule",
+                                            "nameLocation": "507:16:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 53,
+                                            "src": "493:30:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 24,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "493:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "src": "290:239:0"
+                                },
+                                "returnParameters": {
+                                    "id": 27,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "530:0:0"
+                                },
+                                "scope": 94,
+                                "src": "279:508:0",
+                                "stateMutability": "nonpayable",
+                                "virtual": false,
+                                "visibility": "public"
+                            },
+                            {
+                                "body": {
+                                    "id": 92,
+                                    "nodeType": "Block",
+                                    "src": "1066:257:0",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "id": 70,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 68,
+                                                    "name": "landlordName",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 3,
+                                                    "src": "1076:12:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 69,
+                                                    "name": "_landlordName",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 55,
+                                                    "src": "1091:13:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "1076:28:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 71,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "1076:28:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 74,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 72,
+                                                    "name": "tenantName",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 5,
+                                                    "src": "1114:10:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 73,
+                                                    "name": "_tenantName",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 57,
+                                                    "src": "1127:11:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "1114:24:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 75,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "1114:24:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 78,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 76,
+                                                    "name": "propertyAddress",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 7,
+                                                    "src": "1148:15:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 77,
+                                                    "name": "_propertyAddress",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 59,
+                                                    "src": "1166:16:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "1148:34:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 79,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "1148:34:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 82,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 80,
+                                                    "name": "securityDepositAmount",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 9,
+                                                    "src": "1192:21:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 81,
+                                                    "name": "_securityDepositAmount",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 61,
+                                                    "src": "1216:22:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "1192:46:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 83,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "1192:46:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 86,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 84,
+                                                    "name": "rentAmount",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 11,
+                                                    "src": "1248:10:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 85,
+                                                    "name": "_rentAmount",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 63,
+                                                    "src": "1261:11:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "1248:24:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 87,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "1248:24:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "id": 90,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "id": 88,
+                                                    "name": "paymentSchedule",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 13,
+                                                    "src": "1282:15:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "id": 89,
+                                                    "name": "_paymentSchedule",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 65,
+                                                    "src": "1300:16:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_memory_ptr",
+                                                        "typeString": "string memory"
+                                                    }
+                                                },
+                                                "src": "1282:34:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 91,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "1282:34:0"
+                                        }
+                                    ]
+                                },
+                                "functionSelector": "c414765f",
+                                "id": 93,
+                                "implemented": true,
+                                "kind": "function",
+                                "modifiers": [],
+                                "name": "setContractValues",
+                                "nameLocation": "802:17:0",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 66,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [
+                                        {
+                                            "constant": false,
+                                            "id": 55,
+                                            "mutability": "mutable",
+                                            "name": "_landlordName",
+                                            "nameLocation": "843:13:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 93,
+                                            "src": "829:27:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 54,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "829:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 57,
+                                            "mutability": "mutable",
+                                            "name": "_tenantName",
+                                            "nameLocation": "880:11:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 93,
+                                            "src": "866:25:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 56,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "866:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 59,
+                                            "mutability": "mutable",
+                                            "name": "_propertyAddress",
+                                            "nameLocation": "915:16:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 93,
+                                            "src": "901:30:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 58,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "901:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 61,
+                                            "mutability": "mutable",
+                                            "name": "_securityDepositAmount",
+                                            "nameLocation": "955:22:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 93,
+                                            "src": "941:36:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 60,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "941:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 63,
+                                            "mutability": "mutable",
+                                            "name": "_rentAmount",
+                                            "nameLocation": "1001:11:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 93,
+                                            "src": "987:25:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 62,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "987:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 65,
+                                            "mutability": "mutable",
+                                            "name": "_paymentSchedule",
+                                            "nameLocation": "1036:16:0",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 93,
+                                            "src": "1022:30:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "memory",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 64,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "1022:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "src": "819:239:0"
+                                },
+                                "returnParameters": {
+                                    "id": 67,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "1066:0:0"
+                                },
+                                "scope": 94,
+                                "src": "793:530:0",
+                                "stateMutability": "nonpayable",
+                                "virtual": false,
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 95,
+                        "src": "63:1262:0",
+                        "usedErrors": []
+                    }
+                ],
+                "src": "38:1288:0"
+            },
+            "id": 0
+        }
+    }
+}
